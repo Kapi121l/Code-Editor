@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Code Editor Code Alpha</title>
+</head>
+    
+    <style>
+    body {
+        text-align: center;
+        background-color: pink;
+      }
+      
+      textarea {
+        width: 32%;
+        float: top;
+        min-height: 250px;
+        overflow: scroll;
+        margin: auto;
+        display: inline-block;
+        background: #beb66d;
+        outline: navy;
+        font-family: Courier, sans-serif;
+        font-size: 14px;
+      }
+      
+      iframe {
+        bottom: 0;
+        position: relative;
+        width: 100%;
+        height: 35em;
+      }
+    </style>
+
+
+  </head>
+
+  <body>
+    <textarea id="html" placeholder="HTML"></textarea>
+    <textarea id="css" placeholder="CSS"></textarea>
+    <textarea id="js" placeholder="JavaScript"></textarea>
+    <iframe id="code"></iframe>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
